@@ -1,0 +1,25 @@
+{
+  "name": "audio-oscilloscope",
+  "main": "audio-oscilloscope.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/audio-oscilloscope",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Audio oscilloscope in canvas.",
+  "keywords": [
+    "audio",
+    "sound",
+    "canvas",
+    "oscilloscope",
+    "wave"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
