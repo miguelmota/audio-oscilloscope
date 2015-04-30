@@ -2,7 +2,11 @@
 
 Audio [oscilloscope](http://en.wikipedia.org/wiki/Oscilloscope) in canvas.
 
-[![NPM](https://nodei.co/npm/is-typedarray.png)](https://nodei.co/npm/is-typedarray)
+[![NPM](https://nodei.co/npm/audio-oscilloscope.png)](https://nodei.co/npm/audio-oscilloscope)
+
+# Demo
+
+**[http://lab.moogs.io/audio-oscilloscope](http://lab.moogs.io/audio-oscilloscope)**
 
 # Install
 
