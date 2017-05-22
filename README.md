@@ -6,7 +6,7 @@ Audio [oscilloscope](http://en.wikipedia.org/wiki/Oscilloscope) in canvas.
 
 # Demo
 
-**[http://lab.moogs.io/audio-oscilloscope](http://lab.moogs.io/audio-oscilloscope)**
+**[https://lab.miguelmota.com/audio-oscilloscope](https://lab.miguelmota.com/audio-oscilloscope)**
 
 # Install
 
