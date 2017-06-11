@@ -4,6 +4,8 @@ Audio [oscilloscope](http://en.wikipedia.org/wiki/Oscilloscope) in canvas.
 
 [![NPM](https://nodei.co/npm/audio-oscilloscope.png)](https://nodei.co/npm/audio-oscilloscope)
 
+<img src="https://raw.githubusercontent.com/miguelmota/audio-oscilloscope/master/screenshot.gif" width="600" />
+
 # Demo
 
 **[https://lab.miguelmota.com/audio-oscilloscope](https://lab.miguelmota.com/audio-oscilloscope)**
