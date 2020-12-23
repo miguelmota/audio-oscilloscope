@@ -47,11 +47,11 @@ oscilloscope.draw();
 
 navigator.mediaDevices.getUserMedia({
   audio: true
-}, function(stream) {
+}).then(function(stream) {
   var audioContext = new AudioContext();
   var source = audioContext.createMediaStreamSource(stream);
   oscilloscope.addSource(source);
-}, function(error) {
+}).catch(function(error) {
   console.error(error);
 });
 ```

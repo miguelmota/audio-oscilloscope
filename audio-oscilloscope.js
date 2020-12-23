@@ -64,7 +64,6 @@
     }
 
     ctx.fillRect(0, 0, w, h);
-
     ctx.beginPath();
 
     var sliceWidth = w * 1.0 / bufferLength;

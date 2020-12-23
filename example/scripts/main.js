@@ -1,12 +1,6 @@
 window.AudioContext = window.AudioContext || window.webkitAudioContext;
 window.URL = window.URL || window.webkitURL;
 
-var button = document.querySelector('#button');
-button.addEventListener('click', function() {
-  init();
-  button.remove();
-});
-
 var audioContext;
 var oscilloscope;
 
@@ -45,7 +39,9 @@ function init() {
 
   navigator.mediaDevices.getUserMedia({
     audio: true
-  }, startUserMedia, userMediaError);
+  })
+  .then(startUserMedia)
+  .catch(userMediaError);
 }
 
 function startUserMedia(stream) {
@@ -70,3 +66,8 @@ function random(a,b) {
   return ((Math.random() * (b - a + 1) + a)|0);
 }
 
+var button = document.getElementById('button');
+button.addEventListener('click', function() {
+  init();
+  button.remove();
+});
