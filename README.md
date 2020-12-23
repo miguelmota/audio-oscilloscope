@@ -20,7 +20,7 @@
 
 **[https://lab.miguelmota.com/audio-oscilloscope](https://lab.miguelmota.com/audio-oscilloscope)**
 
-@# Install
+# Install
 
 ```bash
 npm install audio-oscilloscope
@@ -45,7 +45,7 @@ var oscilloscope = AudioOscilloscope(document.getElementById('canvas'), {
 
 oscilloscope.draw();
 
-navigator.getUserMedia({
+navigator.mediaDevices.getUserMedia({
   audio: true
 }, function(stream) {
   var audioContext = new AudioContext();

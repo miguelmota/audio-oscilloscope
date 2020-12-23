@@ -1,6 +1,11 @@
 window.AudioContext = window.AudioContext || window.webkitAudioContext;
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
 window.URL = window.URL || window.webkitURL;
+
+var button = document.querySelector('#button');
+button.addEventListener('click', function() {
+  init();
+  button.remove();
+});
 
 var audioContext;
 var oscilloscope;
@@ -38,7 +43,7 @@ function init() {
     alert('No web audio support in this browser!');
   }
 
-  navigator.getUserMedia({
+  navigator.mediaDevices.getUserMedia({
     audio: true
   }, startUserMedia, userMediaError);
 }
@@ -65,4 +70,3 @@ function random(a,b) {
   return ((Math.random() * (b - a + 1) + a)|0);
 }
 
-window.onload = init;

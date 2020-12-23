@@ -1,6 +1,6 @@
 {
   "name": "audio-oscilloscope",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Audio oscilloscope in canvas.",
   "main": "audio-oscilloscope.js",
   "directories": {
